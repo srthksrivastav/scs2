@@ -1,0 +1,418 @@
+h4 {
+  font-weight: 900;
+}
+
+/* Header Section  */
+.top {
+  background-image: url("bg2.jpeg");
+  padding-top: 5px;
+}
+
+.scs-logo {
+  border-radius: 50%;
+  width: 5%;
+  height: 5%;
+  float: left;
+}
+
+.header-text-1 {
+  margin-bottom: 0;
+  color: #fff;
+  padding-left: 80px;
+  margin-top: 0;
+}
+
+.header-text-2 {
+  font-family: 'Dancing Script', cursive;
+  margin-left: 250px;
+  margin-top: 0;
+  color: grey;
+  margin-bottom: 0;
+}
+
+.header-text-3 {
+  margin-top: 0;
+  margin-left: 80px;
+}
+
+.header-social {
+  float: right;
+  padding-right: 30px;
+}
+
+.header-icons {
+  padding-left: 180px;
+}
+
+.tb {
+  padding-left: 120px;
+}
+
+/* Menu-Bar */
+.tb {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  line-height: 20px;
+}
+
+.mb {
+  height: 30px;
+  bottom: 10px;
+  position: relative;
+  background-color: skyblue;
+}
+
+.ss {
+  padding: 5px 15px 15px 15px !important;
+}
+
+/* image-slider */
+.xb {
+  height: 460px;
+  padding: 0 !important;
+}
+
+.pb {
+  bottom: 10px !important;
+  padding: 0;
+  left: 0;
+}
+
+.zb {
+  bottom: 20px;
+  height: 470px;
+}
+
+.zb2 {
+  bottom: 20px;
+  height: 270px;
+}
+
+image-controls {
+  height: 470px;
+}
+
+/* features */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+#cards {
+  background-color: antiquewhite;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.xx {
+  width: 25%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 40px 16px 16px 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.farmer {
+  width: 150px;
+  height: 145px;
+}
+
+.facilities-heading {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: green;
+  text-align: center;
+  background-color: yellowgreen;
+}
+
+.yellow {
+  background-color: yellow;
+  height: 352px;
+}
+
+.green {
+  background-color: green;
+  height: 352px;
+}
+
+.wt {
+  color: #fff;
+}
+
+.column {
+  padding: 0;
+}
+
+.pc {
+  width: 65px;
+  height: 65px;
+}
+
+.desktop {
+  margin-top: 30px;
+  width: 65px;
+  height: 65px;
+}
+
+.fb1 {
+  height: 347px;
+}
+
+.fb2 {
+  height: 347px;
+}
+
+.classroom {
+  margin-top: 30px;
+  width: 65px;
+  height: 65px;
+}
+
+.facilities-text {
+  padding: 10px 25px 0 25px;
+}
+
+.classroom-ext {
+  margin-top: 30px;
+  width: 85px;
+  height: 85px;
+}
+
+.orange {
+  background-color: orange;
+  height: 352px;
+}
+
+.skyblue {
+  background-color: #610094;
+  height: 352px;
+}
+
+.red {
+  height: 352px;
+  background-color: #FF2626;
+}
+
+/* cards */
+.cards {
+  text-align: center;
+  overflow-x: auto;
+}
+
+.c1 {
+  background-color: #ECE7B4;
+  height: 332px;
+  width: 18%;
+  margin: 0 15px;
+  display: inline-block;
+}
+
+.c2 {
+  background-color: aquamarine;
+  height: 332px;
+  width: 18%;
+  margin: 0 15px;
+  display: inline-block;
+}
+
+.c3 {
+  background-color: #FCFFA6;
+  height: 332px;
+  width: 18%;
+  margin: 0 15px;
+  display: inline-block;
+}
+
+.c4 {
+  background-color: bisque;
+  height: 332px;
+  width: 18%;
+  margin: 0 15px;
+  display: inline-block;
+}
+
+.ct {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%
+}
+
+/* footer */
+#footer {
+  font-family: 'Oswald', sans-serif;
+}
+
+.footer {
+  background-color: #4B3869;
+}
+
+.fh {
+  text-align: left;
+}
+
+hr {
+  margin-top: 0 !important;
+}
+
+.cl {
+  color: #4B3869;
+}
+
+.ff {
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
+
+.cz {
+  text-align: center;
+}
+
+.tt {
+  font-size: 10px;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #261C2C;
+}
+
+.cf {
+  background-color: bisque;
+  margin-top: 50px;
+}
+
+.hr {
+  background-color: yellow;
+  height: 8px;
+  margin-bottom: 0;
+}
+
+.czs {
+  font-size: 25px !important;
+}
+
+.b1 {
+  background-color: slateblue;
+  color: white;
+  display: flex;
+  border-radius: 50%;
+}
+
+.b2 {
+  color: white;
+  display: flex;
+  border-radius: 50%;
+  margin: 10px 0;
+  background-color: forestgreen;
+}
+
+.b3 {
+  color: white;
+  display: flex;
+  border-radius: 50%;
+  background-color: limegreen;
+}
+
+/* contact me page  */
+.x {
+  padding-bottom: 30px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.x1 {
+  width: 50% !important;
+  padding-left: 50px !important;
+  background-color: #f2f2f2;
+}
+
+.x2 {
+  background-color: #fff;
+  width: 100%;
+}
+
+.x3 {
+  float: left;
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+}
+
+.x4 {
+  margin-bottom: 30px;
+  margin-left: 40px;
+  margin-top: 0px;
+  padding-top: 20px;
+}
+
+.x5 {
+  padding-bottom: 50px;
+}
+
+.x6 {
+  margin-left: 50%;
+  margin-top: 1%;
+}
+
+.x7 {
+  display: block;
+}
+
+.x8 {
+  margin-bottom: 38px;
+  width: 90%;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+.notice-board{
+  height: 610px;
+  float: left;
+  width: 50%;
+  background-color: darkgreen;
+}
+.ads{
+  background-color: skyblue;
+  padding: 30px 0;
+  text-align: center;
+  width: 50%;
+  float: right;
+}
+.tac{
+  text-align: center;
+}
